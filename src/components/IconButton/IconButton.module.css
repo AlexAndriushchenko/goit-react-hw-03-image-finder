@@ -1,0 +1,37 @@
+/* .IconButton{
+    margin: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font: inherit;
+    background-color: green;
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.searchFormButton {
+    margin: 0;
+    padding: 10px;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+}
+
+.searchFormButton:hover {
+    opacity: 1;
+}
+
+.searchFormButton:disabled {
+    opacity: 0.2;
+}
